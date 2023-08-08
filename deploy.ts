@@ -1,0 +1,1 @@
+const bridge = require() '@vkontakte/vk-bridge'

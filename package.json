@@ -1,0 +1,36 @@
+{
+  "name": "vkui-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@vkontakte/icons": "1.201.0",
+    "@vkontakte/vk-bridge": "2.7.0",
+    "@vkontakte/vkui": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-scripts": "4.0.3",
+    "axios": "latest",
+    "passport": "0.6.0",
+    "passport-mail-ts": "1.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "dev": "node ./deploy",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
